@@ -51,11 +51,11 @@ Find the optimal (lowest-cost) path \( P = (S, v_1, v_2, ..., G) \) minimizing:
 ### **Example Execution**  
 Consider the following grid world:
 
-|   |  |  |  |  |  |
-|---|---|---|---|---|---|
-|  | S | . | . | ⬛ | . |
-|  | ⬛ | . | ⬛ | . | . |
-|  | . | . | . | . | G |
+|  |  |  |  |  |
+|---|---|---|---|---|
+| S | . | . | ⬛ | . |
+| ⬛ | . | ⬛ | . | . |
+| . | . | . | . | G |
 
 Where:
 - `S` = Start node (0,0)
